@@ -57,17 +57,18 @@
 .code {
   color: rgb(26, 223, 26);
   line-height: 1.5;
+  font-weight: 400;
+  font-weight: 15px;
+  font-family: "Encode Sans Expanded", sans-serif;
 }
 
 .section2 {
-  border-top: 1px solid #4e4e4e;
   background-color: #0d1117;
   height: 100vh;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 80px 0 50px;
+  padding: 50px 0 50px;
 }
 
 .section2 h3 {
@@ -80,7 +81,7 @@
 }
 
 .card1 {
-  margin: 60px 200px 50px;
+  margin: 30px 200px 50px;
   width: 650px;
   height: 100%;
   border: 1px solid #4e4e4e;
@@ -103,15 +104,20 @@
 
 .section3 {
   display: flex;
-  justify-content: center;
+  padding: 0 20px 0;
   height: 100vh;
   border-left: 1px solid #4e4e4e;
   background-color: #0d1117;
 }
 
 .form {
-  padding: 100px 30px 0;
+  padding: 70px 0 0;
   color: white;
+}
+
+form {
+  border-bottom: 1px solid #4e4e4e;
+  padding: 0 0 20px;
 }
 
 .form input,
@@ -122,6 +128,12 @@ textarea {
   border-radius: 5px;
   width: 200px;
   height: 30px;
+  color: white;
+  padding: 0 5px 0;
+}
+
+.form input :active {
+  border: white;
 }
 
 .form textarea {
@@ -133,6 +145,7 @@ textarea {
   margin: 10px 0 0;
   background-color: green;
   color: white;
+  cursor: pointer;
   border-radius: 5px;
 }
 
@@ -150,7 +163,7 @@ textarea {
 
 .nav-bar {
   background-color: #212832;
-  padding: 10px 100px 10px;
+  padding: 10px 100px 12px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -218,12 +231,20 @@ textarea {
   color: white;
   font-weight: 400;
   background-color: #3191fe;
-  padding: 5px;
+  padding: 5px 10px 5px;
+  text-decoration: none;
   width: 100px;
   font-size: 14px;
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.btn3:hover {
+  outline: 1px solid #3191fe;
+  background-color: #0d1117;
+  color: #3191fe;
+  transition: 0.4s ease-in-out;
 }
 
 .search-btn {
@@ -272,4 +293,85 @@ nav {
 
 .span {
   font-size: 40px;
+}
+
+.btn4 {
+  color: #3191fe;
+  border-bottom: 1px solid #3191fe;
+  width: 115px;
+}
+
+.btn4:hover {
+  color: white;
+  border-bottom: 1px solid white;
+  transition: 0.4s ease-in-out;
+}
+
+.noti {
+  padding: 20px 0 0;
+  border-bottom: 1px solid #4e4e4e;
+  width: 270px;
+}
+
+.noti h4 {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.noti p {
+  padding: 10px 33px 10px;
+  font-size: 13px;
+  color: rgb(186, 186, 186);
+}
+
+.face {
+  position: relative;
+  top: 7px;
+  padding: 0 5px 0;
+}
+
+.noti-ctn {
+  padding: 30px 0 0;
+}
+
+.btn6 {
+  color: #3191fe;
+  text-align: center;
+  padding: 20px 0 0;
+  border-bottom: 1px solid #3191fe;
+  width: 65px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-ctn {
+  display: flex;
+  justify-content: center;
+}
+
+.host {
+  color: white;
+  padding: 30px 200px 0;
+  display: flex;
+}
+
+.circ {
+  position: relative;
+  top: 7px;
+  border-radius: 100px;
+  margin: 0 5px 0;
+  width: 10px;
+  height: 10px;
+  background-color: #f88119;
+}
+
+.host a {
+  padding: 0 5px 0;
+  color: #58a6ff;
+}
+
+.back {
+  color: white;
+  position: relative;
+  top: 3px;
 }
