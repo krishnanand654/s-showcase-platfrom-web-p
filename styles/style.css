@@ -35,10 +35,9 @@
 
 .section {
   background-color: #0d1117;
-
   display: flex;
   flex-direction: column;
-  padding: 100px 0 0;
+  padding: 60px 0 0;
 }
 
 .table tr td a {
@@ -48,17 +47,14 @@
 }
 
 .card {
-  background-color: #161b22;
-  width: 600px;
-  padding: 50px;
   border-radius: 10px;
-  margin: 50px 100px 0;
+  margin: 50px 200px 0;
 }
 .code {
-  color: rgb(26, 223, 26);
-  line-height: 1.5;
-  font-weight: 400;
-  font-weight: 15px;
+  color: rgb(204, 204, 204);
+  line-height: 2;
+  font-weight: 100;
+  font-size: 14px;
   font-family: "Encode Sans Expanded", sans-serif;
 }
 
@@ -68,12 +64,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 50px 0 50px;
+  padding: 50px 0 100px;
 }
 
 .section2 h3 {
   color: #3191fe;
-  margin: 0 120px 0;
+  margin: 50px 200px 0;
 }
 
 ::-webkit-scrollbar {
@@ -111,7 +107,7 @@
 }
 
 .form {
-  padding: 70px 0 0;
+  padding: 50px 0 0;
   color: white;
 }
 
@@ -132,6 +128,9 @@ textarea {
   padding: 0 5px 0;
 }
 
+.form label {
+  font-size: 14px;
+}
 .form input :active {
   border: white;
 }
@@ -147,6 +146,10 @@ textarea {
   color: white;
   cursor: pointer;
   border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: rgb(35, 197, 35);
 }
 
 .lab {
@@ -175,6 +178,7 @@ textarea {
   border-radius: 5px;
   width: 200px;
   height: 30px;
+  color: white;
 }
 
 ::-webkit-input-placeholder {
@@ -227,7 +231,8 @@ textarea {
   margin: 0 100px 20px;
 }
 
-.btn3 {
+.btn3,
+.btn-name-ctn {
   color: white;
   font-weight: 400;
   background-color: #3191fe;
@@ -249,11 +254,11 @@ textarea {
 
 .search-btn {
   color: #4e4e4e;
-  position: absolute;
-  top: 14px;
+  position: relative;
+  top: 5px;
   font-weight: 600;
   padding: 0 5px 0;
-  left: 1400px;
+  left: -40px;
   cursor: pointer;
 }
 
@@ -271,7 +276,7 @@ nav {
 }
 
 .land-head h1 {
-  font-size: 100px;
+  font-size: 110px;
   color: white;
 }
 
@@ -281,7 +286,7 @@ nav {
 }
 
 .land {
-  background-color: #0d1117;
+  background-color: rgb(0, 0, 0);
 }
 
 .land-head a {
@@ -374,4 +379,28 @@ nav {
   color: white;
   position: relative;
   top: 3px;
+}
+
+.name-ctn {
+  background-color: #212832;
+  width: 215px;
+  padding: 10px 20px 10px;
+  border-radius: 10px;
+  position: absolute;
+  left: 10px;
+  height: 140px;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+.btn-name-ctn a {
+  text-align: center;
+  color: white;
+}
+
+.code-img {
+  width: auto;
+  height: 700px;
+  border: 1px solid #4e4e4e;
+  border-radius: 10px;
 }
