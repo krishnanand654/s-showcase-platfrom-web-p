@@ -29,7 +29,7 @@
   font-size: 14px;
 }
 
-.table tr td a:last-child {
+.table {
   border-bottom: none;
 }
 
@@ -40,6 +40,9 @@
   padding: 60px 0 0;
 }
 
+.table tr td:hover {
+  background-color: #26313f;
+}
 .table tr td a {
   padding: 0 20px 0;
   color: white;
